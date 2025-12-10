@@ -1,0 +1,12 @@
+:root { --bg: #1a1a1a; --primary: #ff5722; --text: #ffffff; }
+body { background-color: var(--bg); color: var(--text); font-family: sans-serif; display: flex; justify-content: center; min-height: 100vh; margin: 0; }
+.container { max-width: 500px; width: 100%; padding: 20px; text-align: center; }
+.card { background: #333; padding: 20px; border-radius: 12px; margin-bottom: 20px; }
+input { width: 90%; padding: 10px; margin-bottom: 15px; border-radius: 8px; border: none; font-size: 1.1rem; }
+.fechas-grid { display: grid; gap: 10px; margin-bottom: 20px; }
+.btn-fecha { padding: 10px; border-radius: 8px; border: 1px solid #555; background: #222; color: #fff; cursor: pointer; }
+.btn-fecha.activo { background: #4caf50; border-color: #4caf50; font-weight: bold; }
+.btn-enviar { width: 100%; padding: 12px; background: var(--primary); color: white; border: none; border-radius: 8px; font-weight: bold; font-size: 1rem; cursor: pointer; }
+table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+th, td { padding: 10px; border-bottom: 1px solid #444; }
+.si { color: #4caf50; } .no { color: #555; }
