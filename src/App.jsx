@@ -6,7 +6,7 @@ import './App.css'
 function App() {
   const DOC_ID = "evento-asado-2025"
   const TITULO = "Asado de Fin de Año 2025"
-  const FECHAS = ["Viernes 12/12", "Sábado 13/12", "Domingo 14/12"]
+  const FECHAS = ["Sabado 20", "Domingo 21", "Viernes 26", "Sabado 27", "Domingo 28"]
 
   const [participantes, setParticipantes] = useState([])
   const [nuevoNombre, setNuevoNombre] = useState("")
